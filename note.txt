@@ -1,0 +1,7 @@
+- sail artisan make:model Petition -mfs
+- sail artisan make:controller PetitionController --api --model=Petition
+- sail artisan make:resource PetitionResource
+- sail artisan make:resource PetitionCollection
+
+- sail composer require doctrine/dbal
+- sail artisan make:migration change_category_type_in_petitions
