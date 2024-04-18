@@ -17,7 +17,7 @@ class PetitionFactory extends Factory
     public function definition(): array
     {
         return [
-            'title' => $this->faker->title,
+            'title' => $this->faker->text(20),
             'category' => $this->faker->text(50),
             'description' => $this->faker->text(200),
             'author' => $this->faker->name,
