@@ -5,3 +5,5 @@
 
 - sail composer require doctrine/dbal
 - sail artisan make:migration change_category_type_in_petitions
+
+- sail artisan install:api
